@@ -59,58 +59,57 @@ function! Greek()
         imap ,x Χ
         imap ,Q Ψ
         imap ,O Ω
-
 endfunction
 
 function! GreekOff()
     echo "Greek macros off."
     let g:GreekOn=0
-        iunmap ,a
-        iunmap ,b
-        iunmap ,g
-        iunmap ,d
-        iunmap ,e
-        iunmap ,z
-        iunmap ,y
-        iunmap ,h
-        iunmap ,i
-        iunmap ,k
-        iunmap ,l
-        iunmap ,m
-        iunmap ,n
-        iunmap ,c
-        iunmap ,o
-        iunmap ,p
-        iunmap ,r
-        iunmap ,s
-        iunmap ,t
-        iunmap ,u
-        iunmap ,f
-        iunmap ,x
-        iunmap ,q
-        iunmap ,o
-        iunmap ,A
-        iunmap ,B
-        iunmap ,G
-        iunmap ,D
-        iunmap ,E
-        iunmap ,Z
-        iunmap ,Y
-        iunmap ,H
-        iunmap ,I
-        iunmap ,K
-        iunmap ,L
-        iunmap ,M
-        iunmap ,N
-        iunmap ,C
-        iunmap ,O
-        iunmap ,P
-        iunmap ,R
-        iunmap ,S
-        iunmap ,T
-        iunmap ,u
-        iunmap ,F
-        iunmap ,x
-        iunmap ,Q
-        iunmap ,O
+        silent! iunmap ,a
+        silent! iunmap ,b
+        silent! iunmap ,g
+        silent! iunmap ,d
+        silent! iunmap ,e
+        silent! iunmap ,z
+        silent! iunmap ,y
+        silent! iunmap ,h
+        silent! iunmap ,i
+        silent! iunmap ,k
+        silent! iunmap ,l
+        silent! iunmap ,m
+        silent! iunmap ,n
+        silent! iunmap ,c
+        silent! iunmap ,o
+        silent! iunmap ,p
+        silent! iunmap ,r
+        silent! iunmap ,s
+        silent! iunmap ,t
+        silent! iunmap ,u
+        silent! iunmap ,f
+        silent! iunmap ,x
+        silent! iunmap ,q
+        silent! iunmap ,o
+        silent! iunmap ,A
+        silent! iunmap ,B
+        silent! iunmap ,G
+        silent! iunmap ,D
+        silent! iunmap ,E
+        silent! iunmap ,Z
+        silent! iunmap ,Y
+        silent! iunmap ,H
+        silent! iunmap ,I
+        silent! iunmap ,K
+        silent! iunmap ,L
+        silent! iunmap ,M
+        silent! iunmap ,N
+        silent! iunmap ,C
+        silent! iunmap ,O
+        silent! iunmap ,P
+        silent! iunmap ,R
+        silent! iunmap ,S
+        silent! iunmap ,T
+        silent! iunmap ,u
+        silent! iunmap ,F
+        silent! iunmap ,x
+        silent! iunmap ,Q
+        silent! iunmap ,O
 endfunction
